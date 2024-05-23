@@ -1,0 +1,20 @@
+.contact-text {
+    font-family: Kadwa;
+    font-size: 2vw;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.line {
+    border: 5px solid #A4BEFF
+}
+
+.number {
+    font-family: Inter;
+    font-size: 1.5vw;
+    font-weight: 800;
+    line-height: 32.68px;
+    text-align: center;
+    color: #FFFFFF;
+
+}

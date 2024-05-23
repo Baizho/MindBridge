@@ -1,0 +1,24 @@
+import Image from "next/image";
+import watchSrc from "../../public/watch-button-logo.png";
+
+export default function Home() {
+  return (
+    <>
+      <div className="d-flex" style={{ height: 500, marginLeft: 70, marginRight: 80 }}>
+        <div className="col-6">
+          <div className="pageHeading" style={{ height: "20%", marginTop: 30, marginBottom: 20 }}>MindBridge</div>
+          <div className="box" style={{ height: "40%", paddingLeft: 20 }}>
+            <div className="text-box">Ваш проводник к <span className="text-box-span">психо эмоциональному</span> благополучию!</div>
+          </div>
+          <div className="watch-button d-flex align-items-center" style={{ height: "15%", width: "40%", marginTop: 20 }}>
+            <Image src={watchSrc} width="10%" height="20%" alt="watch" style={{ marginLeft: "4%" }}></Image>
+            <div className="watch-button-text" style={{ marginLeft: 10 }}>Смотреть подкаст</div>
+          </div>
+        </div>
+        <div className="col-6">
+          <div className="box bg-dark-subtle" style={{ height: "100%", marginLeft: "10%" }}></div>
+        </div>
+      </div>
+    </>
+  );
+}
