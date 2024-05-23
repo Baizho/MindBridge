@@ -13,7 +13,7 @@ export default function Header() {
           <div style={{ width: "25%" }}>
             <Image src={logoSrc} height={50} alt="logo"></Image>
           </div>
-          <div className="navTitle" style={{ width: "75%" }}>MindBridg</div>
+          <div className="navTitle" style={{ width: "75%" }}>MindBridge</div>
         </div>
         <div className="d-flex align-items-center" style={{ height: "100%", right: "2%", gap: 40, position: "absolute" }}>
           <div>
