@@ -6,6 +6,13 @@
     color: #293991;
 }
 
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .box {
     border: 3px solid #293991
 }

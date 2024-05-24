@@ -9,10 +9,10 @@ import "./style.css";
 
 export default function Footer() {
     return (
-        <div style={{ marginTop: 30 }}>
-            <div className="d-flex align-items-center justify-content-center" style={{ height: 250, backgroundColor: "#293991", position: "relative" }}>
+        <div style={{ marginTop: "auto", paddingTop: 30 }}>
+            <div className="d-flex align-items-center justify-content-center" style={{ height: 170, backgroundColor: "#293991", position: "relative" }}>
                 <div className="col-3 text-center" style={{ left: "5%", top: "5%", position: "absolute" }}>
-                    <Image src={logoSrc} height={200}></Image>
+                    <Image src={logoSrc} height={150}></Image>
                 </div>
                 <div className="col-3 text-center justify-content-center" style={{ left: "35%", top: "5%", position: "absolute" }}>
                     <div className="contact-text">Contact Us</div>
@@ -39,6 +39,6 @@ export default function Footer() {
                     </div>
                 </div>
             </div >
-        </div>
+        </div >
     );
 }

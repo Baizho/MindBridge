@@ -2,7 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import logoSrc from "../../../public/logo.jpg";
 import homeButtonSrc from "../../../public/homeButton.png";
-import menuButtonSrc from "../../../public/menuButton.png";
+
+import Menu from "../Menu/Menu";
 import "./style.css";
 
 export default function Header() {
@@ -17,11 +18,9 @@ export default function Header() {
         </div>
         <div className="d-flex align-items-center" style={{ height: "100%", right: "2%", gap: 40, position: "absolute" }}>
           <div>
-            <Image src={homeButtonSrc} height={30} alt="logo"></Image>
+            <Link href="../"><Image src={homeButtonSrc} height={30} alt="logo"></Image></Link>
           </div>
-          <div>
-            <Image src={menuButtonSrc} height={30} alt="logo"></Image>
-          </div>
+          <Menu />
         </div>
       </div >
     </div>

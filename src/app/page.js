@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import watchSrc from "../../public/watch-button-logo.png";
 
 export default function Home() {
@@ -10,10 +11,10 @@ export default function Home() {
           <div className="box" style={{ height: "40%", paddingLeft: 20 }}>
             <div className="text-box">Ваш проводник к <span className="text-box-span">психо эмоциональному</span> благополучию!</div>
           </div>
-          <div className="watch-button d-flex align-items-center" style={{ height: "15%", width: "40%", marginTop: 20 }}>
+          <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="watch-button d-flex align-items-center" style={{ height: "15%", width: "45%", marginTop: 20 }}>
             <Image src={watchSrc} width="10%" height="20%" alt="watch" style={{ marginLeft: "4%" }}></Image>
             <div className="watch-button-text" style={{ marginLeft: 10 }}>Смотреть подкаст</div>
-          </div>
+          </Link>
         </div>
         <div className="col-6">
           <div className="box bg-dark-subtle" style={{ height: "100%", marginLeft: "10%" }}></div>
