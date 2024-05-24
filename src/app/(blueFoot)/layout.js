@@ -1,8 +1,9 @@
 import { Inter, Margarine } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.css";
-import "../app/globals.css";
-import Header from "../components/Header/Header.js";
-import Footer from "@/components/Footer/Footer";
+import "./globals.css";
+import Header from "../../components/Header/Header.js";
+// import FooterWhite from "../../components/FooterWhite/FooterWhite.js";
+import FooterBlue from "../../components/FooterBlue/FooterBlue";
 
 export default function RootLayout({ children }) {
   return (
@@ -11,7 +12,8 @@ export default function RootLayout({ children }) {
         <div className="App">
           <Header />
           {children}
-          <Footer />
+          {/* <FooterWhite /> */}
+          <FooterBlue></FooterBlue>
         </div>
       </body>
     </html>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import watchSrc from "../../public/watch-button-logo.png";
+import watchSrc from "../../../public/watch-button-logo.png";
 
 export default function Home() {
   return (

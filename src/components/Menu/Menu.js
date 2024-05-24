@@ -14,10 +14,7 @@ import { useState, useEffect } from "react";
 import "./style.css";
 
 export default function Menu() {
-    const [opa, setOpa] = useState("");
-    useEffect(() => {
-        setOpa("hidden");
-    }, [])
+    const [opa, setOpa] = useState("hidden");
 
     function changeOpacity() {
         if (opa == "hidden") setOpa("visible");
@@ -30,8 +27,8 @@ export default function Menu() {
                     changeOpacity()
                 }}></Image>
             </div>
-            <div style={{ visibility: opa, position: "absolute", right: "80%" }}>
-                <div className="d-flex" style={{ marginLeft: "50%", height: 430, width: 250, backgroundColor: "#293991" }}>
+            <div style={{ visibility: opa, position: "absolute", right: "90%", top: "100%" }}>
+                <div className="d-flex" style={{ marginLeft: "50%", height: 430, width: 300, backgroundColor: "#293991" }}>
                     <div className="col" style={{ paddingLeft: 20 }}>
                         <div className="d-flex" style={{ height: "7%", position: "relative" }}>
                             <Image onClick={() => { changeOpacity(); }} src={xSrc} width={10} height={10} style={{ position: "absolute", right: "7%", top: "40%" }}></Image>

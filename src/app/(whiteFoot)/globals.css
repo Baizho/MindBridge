@@ -1,19 +1,16 @@
-.line {
-    border: 1px solid #FFFFFF;
-}
-
-.number {
-    font-family: Khula;
-    font-size: 1.5vw;
-    font-weight: 400;
-}
-
 .pageHeading {
     font-family: Kefa;
     font-size: 5vw;
     font-weight: 700;
     line-height: 127.19px;
     color: #293991;
+}
+
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .box {

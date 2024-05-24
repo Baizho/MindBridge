@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logoSrc from "../../../public/logo.jpg";
+import logoSrc from "../../../public/logo.png";
 import homeButtonSrc from "../../../public/homeButton.png";
 
 import Menu from "../Menu/Menu";
