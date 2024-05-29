@@ -1,5 +1,5 @@
 .text-title {
-    font-family: Kefa;
+    font-family: var(--font-kefa);
     font-size: 38px;
     font-weight: 600;
     color: #293991;

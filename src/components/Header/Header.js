@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Inter } from "next/font/google";
 import Image from "next/image";
 import logoSrc from "../../../public/logo.png";
 import homeButtonSrc from "../../../public/homeButton.png";

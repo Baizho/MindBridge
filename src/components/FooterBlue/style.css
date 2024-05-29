@@ -1,5 +1,5 @@
 .contact-text {
-    font-family: Kadwa;
+    font-family: var(--font-kadwa);
     font-size: 2vw;
     font-weight: 700;
     color: white;
@@ -10,7 +10,7 @@
 }
 
 .number {
-    font-family: Inter;
+    font-family: var(--font-inter);
     font-size: 1.5vw;
     font-weight: 800;
     line-height: 32.68px;

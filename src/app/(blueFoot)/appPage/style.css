@@ -1,6 +1,6 @@
 .app-pageHeading {
-    font-family: Lexend_Deca;
-    font-size: 3.6vw;
+    font-family: var(--font-lexend_duca);
+    font-size: 3vw;
     font-weight: 800;
     color: #293991;
     margin-left: 3%;
@@ -14,8 +14,8 @@
 }
 
 .app-pageInstruction {
-    font-family: Khula;
-    font-size: 2.5vw;
+    font-family: var(--font-khula);
+    font-size: 2vw;
     font-weight: 800;
     color: #293991;
     margin-left: 3%;
@@ -37,7 +37,7 @@
 
 .app-countDownText {
     color: white;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 .app-arrowLeft {

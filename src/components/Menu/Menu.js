@@ -36,37 +36,37 @@ export default function Menu() {
 
                         <Link href="../statisticsPage" className="d-flex justify-content-start" style={{ marginTop: 10, textDecoration: "none" }}>
                             <Image alt="statlogo" src={statSrc} width={30} height={30}></Image>
-                            <div className="number" style={{ marginLeft: 20 }}>Статистика</div>
+                            <div className="numberText" style={{ marginLeft: 20 }}>Статистика</div>
                         </Link>
                         <div className="line" style={{ width: "90%" }}></div>
 
                         <Link href="../solutionPage" className="d-flex justify-content-start" style={{ marginTop: 30, textDecoration: "none" }}>
                             <Image alt="connectionlogo" src={connectionSrc} width={30} height={30}></Image>
-                            <div className="number" style={{ marginLeft: 20 }}>Решение</div>
+                            <div className="numberText" style={{ marginLeft: 20 }}>Решение</div>
                         </Link>
                         <div className="line" style={{ width: "90%" }}></div>
 
                         <Link href="../planPage" className="d-flex justify-content-start" style={{ marginTop: 30, textDecoration: "none" }}>
                             <Image alt="arrowlogo" src={arrowSrc} width={30} height={30}></Image>
-                            <div className="number" style={{ marginLeft: 20 }}>План Развития</div>
+                            <div className="numberText" style={{ marginLeft: 20 }}>План Развития</div>
                         </Link>
                         <div className="line" style={{ width: "90%" }}></div>
 
                         <Link href="../appPage" className="d-flex justify-content-start" style={{ marginTop: 30, textDecoration: "none" }}>
                             <Image alt="applogo" src={appSrc} width={30} height={30}></Image>
-                            <div className="number" style={{ marginLeft: 20 }}>Приложение</div>
+                            <div className="numberText" style={{ marginLeft: 20 }}>Приложение</div>
                         </Link>
                         <div className="line" style={{ width: "90%" }}></div>
 
                         <Link href="../donationPage" className="d-flex justify-content-start" style={{ marginTop: 30, textDecoration: "none" }}>
                             <Image alt="donationlogo" src={donationSrc} width={30} height={30}></Image>
-                            <div className="number" style={{ marginLeft: 20 }}>Пожертвование</div>
+                            <div className="numberText" style={{ marginLeft: 20 }}>Пожертвование</div>
                         </Link>
                         <div className="line" style={{ width: "90%" }}></div>
 
                         <Link href="../foundationPage" className="d-flex justify-content-start" style={{ marginTop: 30, textDecoration: "none" }}>
                             <Image alt="ellipselogo" src={ellipseSrc} width={30} height={30}></Image>
-                            <div className="number" style={{ marginLeft: 20 }}>Niet Foundation</div>
+                            <div className="numberText" style={{ marginLeft: 20 }}>Niet Foundation</div>
                         </Link>
                         <div className="line" style={{ width: "90%" }}></div>
                     </div>
