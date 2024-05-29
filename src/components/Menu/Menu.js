@@ -21,13 +21,13 @@ export default function Menu() {
         else setOpa("hidden");
     }
     return (
-        <div style={{ zIndex: 100 }}>
+        <div style={{ zIndex: 1000 }}>
             <div style={{ position: "relative", cursor: "pointer" }}>
                 <Image src={menuButtonSrc} height={30} alt="logo" onClick={() => {
                     changeOpacity()
                 }}></Image>
             </div>
-            <div style={{ visibility: opa, position: "absolute", right: "90%", top: "100%" }}>
+            <div style={{ visibility: opa, position: "absolute", right: "101.5%", top: "100%" }}>
                 <div className="d-flex" style={{ marginLeft: "50%", height: 430, width: 300, backgroundColor: "#293991" }}>
                     <div className="col" style={{ paddingLeft: 20 }}>
                         <div className="d-flex" style={{ height: "7%", position: "relative" }}>
