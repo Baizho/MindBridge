@@ -12,6 +12,7 @@
 .text-box {
     height: 114px;
     border: 8px solid #293991;
+    border-top-width: 0px;
 }
 
 .stats {

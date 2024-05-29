@@ -1,45 +1,51 @@
-.pageHeading {
-    font-family: Kefa;
-    font-size: 5vw;
-    font-weight: 700;
-    line-height: 10vh;
+.app-pageHeading {
+    font-family: Lexend_Deca;
+    font-size: 3.6vw;
+    font-weight: 800;
     color: #293991;
+    margin-left: 3%;
+    width: 40%;
 }
 
-
-.box {
-    border: 3px solid #293991
+.app-pageHeadingLine {
+    margin-left: 3%;
+    border: 3px solid #A7B4FF;
+    width: 35%;
 }
 
-.text-box {
-    font-family: Inter;
-    font-size: 3vw;
+.app-pageInstruction {
+    font-family: Khula;
+    font-size: 2.5vw;
     font-weight: 800;
-    line-height: 66.56px;
-    text-align: left;
     color: #293991;
-
+    margin-left: 3%;
+    width: 40%;
 }
 
-.text-box-span {
-    font-family: Inter;
-    font-size: 3vw;
-    font-weight: 800;
-    line-height: 66.56px;
-    text-align: left;
-    color: #A7B4FF;
+.app-pageInstructionLine {
+    margin-left: 3%;
+    border: 3px solid #A7B4FF;
+    width: 35%;
 }
 
-.watch-button {
-    border-radius: 45px;
-    background: #293991D9;
+.app-pageCountDown {
+    margin-top: 30px;
+    width: 70%;
+    height: 200px;
+    background-color: #6C6C6C;
 }
 
-.watch-button-text {
-    font-family: Inter;
-    font-size: 1.5vw;
-    font-weight: 800;
-    line-height: 33.89px;
-    text-align: left;
-    color: #FFFFFF;
+.app-countDownText {
+    color: white;
+    font-size: 2vw;
+}
+
+.app-arrowLeft {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.app-arrowRight {
+    margin-left: 2%;
+    margin-right: 2%;
 }
