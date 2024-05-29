@@ -1,0 +1,37 @@
+.body{
+    width:100%;
+    padding-top:20px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+h1{
+    margin-left: 30px;
+    font-family: Kefa;
+    color: #293991;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#solutionText{
+
+    padding: 20px;
+    height: 500px;
+    width: 800px;
+    border-color:#293991;
+    border-style: solid;
+    border-width: 2px;
+
+    font-family: Inter;
+    font-style: italic;
+}
+#img{
+    border: 1px #293991 solid;
+    margin-left: 100px;
+    height:500px;
+    width: 500px;
+}
+.box{
+    display: flex;
+    border-style: inherit;
+    align-items: center;
+}
