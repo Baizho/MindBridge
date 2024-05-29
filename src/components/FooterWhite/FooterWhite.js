@@ -8,7 +8,7 @@ import "./style.css";
 
 export default function FooterWhite() {
     return (
-        <div style={{ marginTop: "auto", paddingTop: 30 }}>
+        <div style={{ marginTop: "auto" }}>
             <div className="d-flex align-items-center justify-content-center" style={{ height: 200, backgroundColor: "#FFFFFF", position: "relative", border: "1px solid #293991" }}>
                 <div className="col-3 d-flex justify-content-center" style={{ height: "100%", left: "5%", top: "0%", position: "absolute" }}>
                     <div className="d-flex justify-content-center" style={{ background: "#A7B4FF", marginTop: 20, height: 160, width: 160, borderRadius: "50%" }}>

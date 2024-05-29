@@ -4,7 +4,7 @@ import watchSrc from "../../../public/watch-button-logo.png";
 
 export default function Home() {
   return (
-    <>
+    <div style={{ marginTop: 30, marginBottom: 30 }}>
       <div className="d-flex" style={{ height: 500, marginLeft: 70, marginRight: 80 }}>
         <div className="col-6">
           <div className="pageHeading" style={{ height: "20%", marginTop: 30, marginBottom: 20 }}>MindBridge</div>
@@ -20,6 +20,6 @@ export default function Home() {
           <div className="box bg-dark-subtle" style={{ height: "100%", marginLeft: "10%" }}></div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

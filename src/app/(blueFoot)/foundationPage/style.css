@@ -1,27 +1,31 @@
-.body{
+.body {
     border-color: #2036ac;
     border-left-style: solid;
     border-right-style: solid;
     border-width: 5px;
     height: 800px;
 }
-h1{
+
+h1 {
     margin: 20px;
     margin-bottom: 5px;
     text-align: center;
 }
-#sText{
+
+#sText {
     text-align: center;
     font-family: Calibri;
     font-style: italic;
     font-size: 18px;
 }
-.buttons{
+
+.buttons {
     width: 90%;
     margin: 30px;
     position: relative;
 }
-#sInfoPage{
+
+#sInfoPage {
     padding-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -30,7 +34,8 @@ h1{
     border-width: 1px;
     border-color: rgba(32, 54, 172, 0.47);
 }
-button{
+
+button {
     background-color: #2036ac;
     color: white;
     padding: 8px;
@@ -40,11 +45,11 @@ button{
     border-radius: 8px;
     display: flex;
     justify-content: center;
-    margin:5px;
-    width:150px;
+    margin: 5px;
+    width: 150px;
 }
-h3{
+
+h3 {
     font-size: 24px;
     font-family: "Droid Sans";
 }
-

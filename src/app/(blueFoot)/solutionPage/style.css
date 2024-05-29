@@ -1,37 +1,44 @@
-.body{
-    width:100%;
-    padding-top:20px;
-    padding-left: 150px;
-    padding-right: 150px;
-
-}
-h1{
-    margin-left: 30px;
+.pageHeading {
     font-family: Kefa;
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: 10vh;
     color: #293991;
-    font-weight: bold;
-    margin-bottom: 20px;
 }
-#solutionText{
 
-    padding: 20px;
-    height: 500px;
-    width: 800px;
-    border-color:#293991;
-    border-style: solid;
-    border-width: 2px;
+.box {
+    border: 3px solid #293991
+}
 
+.text-box {
     font-family: Inter;
-    font-style: italic;
+    font-size: 3vw;
+    font-weight: 800;
+    line-height: 66.56px;
+    text-align: left;
+    color: #293991;
+
 }
-#img{
-    border: 1px #293991 solid;
-    margin-left: 100px;
-    height:500px;
-    width: 500px;
+
+.text-box-span {
+    font-family: Inter;
+    font-size: 3vw;
+    font-weight: 800;
+    line-height: 66.56px;
+    text-align: left;
+    color: #A7B4FF;
 }
-.box{
-    display: flex;
-    border-style: inherit;
-    align-items: center;
+
+.watch-button {
+    border-radius: 45px;
+    background: #293991D9;
+}
+
+.watch-button-text {
+    font-family: Inter;
+    font-size: 1.5vw;
+    font-weight: 800;
+    line-height: 33.89px;
+    text-align: left;
+    color: #FFFFFF;
 }

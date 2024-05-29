@@ -8,7 +8,7 @@ import "./style.css";
 
 export default function Header() {
   return (
-    <div style={{ marginBottom: 30 }}>
+    <div>
       <div className="d-flex" style={{ height: 70, backgroundColor: "#293991", position: "relative" }}>
         <div className="row align-items-center" style={{ height: "100%", left: "5%", position: "absolute" }}>
           <div style={{ width: "25%" }}>
