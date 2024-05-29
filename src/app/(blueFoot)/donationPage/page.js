@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-export default function statisticsPage() {
+export default function donationPage() {
     return (
         <>
-            Here
+            hello
         </>
     );
 }
