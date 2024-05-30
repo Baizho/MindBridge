@@ -6,11 +6,16 @@ import homeButtonSrc from "../../../public/homeButton.png";
 
 import Menu from "../Menu/Menu";
 import "./style.css";
+import Head from "next/head";
 
 export default function Header() {
   return (
-    <div>
-      <div className="d-flex" style={{ height: 70, backgroundColor: "#293991", position: "relative" }}>
+  <div>
+    <Head>
+      <meta charSet="utf-8" name="viewport"
+            content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"/>
+    </Head>
+    <div className="d-flex" style={{height: 70, backgroundColor: "#293991", position: "relative" }}>
         <div className="row align-items-center" style={{ height: "100%", left: "5%", position: "absolute" }}>
           <div style={{ width: "25%" }}>
             <Image src={logoSrc} height={50} alt="logo"></Image>
