@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import './style.css';
 
-export default function solutionPage() {
+export default function donationPage() {
     return (
         <div style={{ marginTop: 30, marginBottom: 30 }}>
             <div className="d-flex" style={{ height: 500, marginLeft: "5%", marginRight: "5%" }} >
