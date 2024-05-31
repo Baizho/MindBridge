@@ -9,7 +9,7 @@ export default function solutionPage() {
                 <div className="col-6">
                     <div className="pageHeading" style={{ height: "20%", marginBottom: "5%", }}>MindBridge</div>
                     <div className="box" style={{ height: "72.5%", paddingLeft: 20 }}>
-                        <div className="text-box">текст о приложение и как оно решает проблему</div>
+                        <div className="text-box">Plan..</div>
                     </div>
                 </div>
                 <div className="col-6">

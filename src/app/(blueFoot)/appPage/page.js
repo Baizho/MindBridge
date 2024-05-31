@@ -27,7 +27,7 @@ export default function solutionPage() {
             <div className="app-pageInstructionLine"></div>
             <div className="d-flex justify-content-center">
                 <div className="d-flex align-items-center justify-content-center app-pageCountDown">
-                    <div className="app-countDownText">обратный отсчет до выходп приложения</div>
+                    <div className="app-countDownText">Weeks maybe</div>
                 </div>
             </div>
         </div>

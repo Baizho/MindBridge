@@ -4,48 +4,83 @@
     font-weight: 700;
     line-height: 127.19px;
     color: #293991;
-}
-
-
-.App {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    height: 20%;
 }
 
 .box {
-    border: 3px solid #293991
+    height: 400px;
+    width: 75%;
 }
 
-.text-box {
+.donation-text {
     font-family: var(--font-inter);
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 800;
-    line-height: 66.56px;
-    text-align: left;
-    color: #293991;
-
+    color: #3648ac;
 }
 
-.text-box-span {
-    font-family: var(--font-inter);
-    font-size: 3vw;
-    font-weight: 800;
-    line-height: 66.56px;
-    text-align: left;
-    color: #A7B4FF;
-}
-
-.watch-button {
-    border-radius: 45px;
-    background: #293991D9;
-}
-
-.watch-button-text {
-    font-family: var(--font-inter);
-    font-size: 1.5vw;
-    font-weight: 800;
-    line-height: 33.89px;
-    text-align: left;
+.donation-button {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
     color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round, sans-serif;
+    font-size: 2vw;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 20%;
+    height: 80px;
+    margin-top: 15%;
+}
+
+.donation-button:after {
+    background-clip: padding-box;
+    background-color: #1CB0F6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.donation-button:focus {
+    user-select: auto;
+}
+
+.donation-button:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+}
+
+.donation-button:disabled {
+    cursor: auto;
+}
+
+.donation-button:active {
+    border-width: 4px 0 0;
+    background: none;
 }
