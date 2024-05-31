@@ -14,24 +14,24 @@
 }
 
 .box {
-    border: 3px solid #293991
+    border: 3px solid #293991;
+    padding-left: 10px;
 }
 
 .text-box-page {
     font-family: var(--font-inter);
-    font-size: 2vw;
+    font-size: 1.7vw;
     font-weight: 800;
-    line-height: 66.56px;
+    line-height: 3vw;
     text-align: left;
     color: #293991;
-
 }
 
 .text-box-span-page {
     font-family: var(--font-inter);
-    font-size: 2vw;
+    font-size: 1.7vw;
     font-weight: 800;
-    line-height: 66.56px;
+    line-height: 3vw;
     text-align: left;
     color: #A7B4FF;
 }
