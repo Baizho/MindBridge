@@ -30,7 +30,7 @@ export default function FooterBlue() {
                 </div>
                 <div className="col-3 text-center justify-content-center" style={{ left: "65%", top: "5%", position: "absolute" }}>
                     <div className="contact-text">Social Media</div>
-                    <div className="d-flex justify-content-center"><div className="line" style={{ width: "50%" }}></div></div>
+                    <div className="d-flex justify-content-center"><div className="lines" style={{ width: "50%" }}></div></div>
                     <div className="d-flex justify-content-center" style={{ marginTop: 20 }}>
                         <Image alt="instalogo" src={instaLogoSrc} width={30} height={30}></Image>
                         <div className="number" style={{ marginLeft: 20 }}>@mindbridge.qz</div>
