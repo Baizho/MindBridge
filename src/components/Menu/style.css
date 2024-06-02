@@ -1,11 +1,12 @@
 .line {
     border: 1px solid #FFFFFF;
+    margin-top: 5px;
 }
 
 .numberText {
     font-family: var(--font-khula);
     font-size: 1.2vw;
-    font-weight: 400;
+    font-weight: 650;
     color: #FFFFFF;
 }
 
